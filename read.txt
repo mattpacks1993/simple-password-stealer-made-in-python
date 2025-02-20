@@ -1,0 +1,4 @@
+Supported browsers:
+
+-microsoft edge
+--ill add more each week--
